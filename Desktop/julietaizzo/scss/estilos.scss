@@ -1,0 +1,146 @@
+@import "colores";
+
+
+body {
+  background-color: black;
+  margin: 0;
+  color: $texto;
+}
+
+h2 {
+  color: $texto;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  text-align: center;
+}
+
+nav {
+  padding: 1rem;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: $texto;
+  overflow: hidden;
+  background: linear-gradient(to right, #781AC1, #00FF00 50%, white 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+
+  &:hover {
+    background-position: 0 100%;
+  }
+}
+
+ul {
+  color: $texto;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 0.3rem;
+  word-spacing: 0.4rem;
+  font-size: 1.8rem;
+}
+
+h3 {
+  color: $texto;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: 300;
+}
+
+.about__texto {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  color: $texto;
+}
+
+footer {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  color: $texto;
+  padding: 1rem;
+
+  /* background-image: linear-gradient(to top, #00FF01, #771AC1); */
+}
+
+.about--nombre {
+  text-align: center;
+}
+
+.about {
+  padding: 1.2rem;
+}
+
+.portfolio {
+  padding: 1rem;
+}
+
+.servicios {
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../imagenes/servicios-03.svg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contacto {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-image: url(../imagenes/contacto.svg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.texservicio {
+  color: $texto;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.servicios__container {
+  padding-top: 4rem;
+  padding: 2rem;
+}
+
+.header__imgheader {
+  height: auto;
+  width: 100%;
+}
+
+.textoabout {
+  padding: 0.5rem;
+}
+
+form {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 1.4rem;
+}
+
+
+.navbar-nav.navbar-center {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.portfolio__texto {
+  color: $texto;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align: center;
+}
